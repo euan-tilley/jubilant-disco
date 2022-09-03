@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('echo'){
             steps{
-                echo "Jenkinsfile from terrsform/stack1 folder"
+                echo "Jenkinsfile from terrsform/stack2 folder"
             }
         }
     }

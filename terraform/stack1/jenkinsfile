@@ -5,6 +5,7 @@ pipeline{
         stage('echo'){
             steps{
                 echo "Jenkinsfile from terrsform/stack1 folder"
+                git branch: 'master',credentialsId: 'jenkins-user',url: 'https://github.com/euan-tilley/jubilant-disco.git'
             }
         }
     }

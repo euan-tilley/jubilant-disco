@@ -5,11 +5,11 @@ pipeline{
         stage('echo'){
             steps{
                 echo "Jenkinsfile from terrsform/stack2 folder"
-                // git branch: 'master',credentialsId: 'jenkins-user',url: 'https://github.com/euan-tilley/jubilant-disco.git'
-                checkout([$class: 'GitSCM',
-                          branches: [[name: '*/master']],
-                          extensions: [[$class: 'PathRestriction', excludedRegions: '', includedRegions: 'terraform/stack2/**']],
-                          userRemoteConfigs: [[credentialsId: 'jenkins-user', url: 'https://github.com/euan-tilley/jubilant-disco.git']]])
+                git branch: 'master',credentialsId: 'jenkins-user',url: 'https://github.com/euan-tilley/jubilant-disco.git'
+                // checkout([$class: 'GitSCM',
+                //           branches: [[name: '*/master']],
+                //           extensions: [[$class: 'PathRestriction', excludedRegions: '', includedRegions: 'terraform/stack2/**']],
+                //           userRemoteConfigs: [[credentialsId: 'jenkins-user', url: 'https://github.com/euan-tilley/jubilant-disco.git']]])
             }
         }
     }

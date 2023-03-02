@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('echo'){
             steps{
-                echo "Jenkinsfile from terraform/image1 folder"
+                echo "Jenkinsfile from P3 folder"
             }
         }
     }

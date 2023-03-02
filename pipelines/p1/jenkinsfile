@@ -2,7 +2,9 @@ pipeline{
     agent any
 
     stages{
+
         stage('echo'){
+            when { changeset "terraform/stack1/*" }
             steps{
                 echo "Jenkinsfile from p1 folder"
             }

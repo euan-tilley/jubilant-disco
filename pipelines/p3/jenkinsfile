@@ -3,10 +3,10 @@ pipeline{
 
     stages{
         stage('echo'){
-            when {
-                beforeAgent true
-                changeset "terraform/stack3/*"
-            }
+            // when {
+            //     beforeAgent true
+            //     changeset "terraform/stack3/*"
+            // }
             steps{
                 echo "Jenkinsfile from p3 folder"
                 script {

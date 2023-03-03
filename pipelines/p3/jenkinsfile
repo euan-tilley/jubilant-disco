@@ -3,8 +3,18 @@ pipeline{
 
     stages{
         stage('echo'){
+            when {
+                beforeAgent true
+                changeset "terraform/stack3/*"
+            }
             steps{
-                echo "Jenkinsfile from P3 folder"
+                echo "Jenkinsfile from p3 folder"
+                script {
+                    if (env.CHANGE_ID) {
+                        def date = sh(returnStdout: true, script: "date -u").trim()
+                        pullRequest.comment("Build ${env.BUILD_ID} ran at ${date}/n p3 folder")
+                    }
+                }
             }
         }
     }

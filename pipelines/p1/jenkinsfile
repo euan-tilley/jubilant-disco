@@ -2,11 +2,19 @@ pipeline{
     agent any
 
     stages{
-
         stage('echo'){
-            when { changeset "terraform/stack1/*" }
+            when {
+                beforeAgent true
+                changeset "terraform/stack1/*"
+            }
             steps{
                 echo "Jenkinsfile from p1 folder"
+                script {
+                    if (env.CHANGE_ID) {
+                        def date = sh(returnStdout: true, script: "date -u").trim()
+                        pullRequest.comment("Build ${env.BUILD_ID} ran at ${date}/n p1 folder")
+                    }
+                }
             }
         }
     }

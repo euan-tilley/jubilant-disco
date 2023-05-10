@@ -1,0 +1,870 @@
+{
+    "trading": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-trading-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-trading-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-trading-aurora20220928170727414600000002",
+            "db_param_group": "stg1-trading-aurora20220928170727406000000001"
+        }
+    },
+    "wso2am": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": false
+        },
+        "cluster_identifier": "stg1-wso2am-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-wso2am-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": false,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-wso2am-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-wso2am-aurora-db-parameter-group"
+        }
+    },
+    "notification_webhooks": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-notification-webhooks-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-notification-webhooks-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-notification-webhooks-aurora20220921091127999400000002",
+            "db_param_group": "stg1-notification-webhooks-aurora20220921091127992400000001"
+        }
+    },
+    "payment_provider_jpm": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-payment-provider-jpm-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-payment-provider-jpm-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-payment-provider-jpm-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-payment-provider-jpm-aurora-db-parameter-group"
+        }
+    },
+    "rundeck": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": false
+        },
+        "cluster_identifier": "stg1-rundeck-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-rundeck-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": false,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-rundeck-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-rundeck-aurora-db-parameter-group"
+        }
+    },
+    "offline_trading": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-offline-trading-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-offline-trading-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-offline-trading-aurora20220921091549870400000001",
+            "db_param_group": "stg1-offline-trading-aurora20220921091549874900000002"
+        }
+    },
+    "transaction_monitoring": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-transaction-monitoring-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-transaction-monitoring-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.r5.xlarge",
+            "cluster_param_group": "stg1-transaction-monitoring-aurora20220928171037695400000002",
+            "db_param_group": "stg1-transaction-monitoring-aurora20220928171037694000000001"
+        }
+    },
+    "virtual_accounts_provider_jpm": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-virtual-accounts-provider-jpm-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-virtual-accounts-provider-jpm-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-virtual-accounts-provider-jpm-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-virtual-accounts-provider-jpm-aurora-db-parameter-group"
+        }
+    },
+    "not_engine_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-not-engine-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-not-engine-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-not-engine-demo-aurora20220921090609533800000002",
+            "db_param_group": "stg1-not-engine-demo-aurora20220921090609526300000001"
+        }
+    },
+    "sweeps": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-sweeps-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-sweeps-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-sweeps-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-sweeps-aurora-db-parameter-group"
+        }
+    },
+    "sugarcrm_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.2xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-sugarcrm-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-sugarcrm-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.r5.2xlarge",
+            "cluster_param_group": "stg1-sugarcrm-demo-aurora20220928164718506900000001",
+            "db_param_group": "stg1-sugarcrm-demo-aurora20220928164718507100000002"
+        }
+    },
+    "virtual_accounts": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-virtual-accounts-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-virtual-accounts-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-virtual-accounts-aurora20220928172750042300000002",
+            "db_param_group": "stg1-virtual-accounts-aurora20220928172750035500000001"
+        }
+    },
+    "service_sca": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-service-sca-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-service-sca-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-service-sca-aurora20220928161825205900000002",
+            "db_param_group": "stg1-service-sca-aurora20220928161825205800000001"
+        }
+    },
+    "fix_adapter_360t": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-fix-adapter-360t-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-fix-adapter-360t-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-fix-adapter-360t-aurora20220921083604086900000001",
+            "db_param_group": "stg1-fix-adapter-360t-aurora20220921083604087400000002"
+        }
+    },
+    "balance_transfers": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-balance-transfers-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-balance-transfers-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-balance-transfers-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-balance-transfers-aurora-db-parameter-group"
+        }
+    },
+    "transaction_screening": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.4xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-transaction-screening-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-transaction-screening-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.r5.4xlarge",
+            "cluster_param_group": "stg1-transaction-screening-aurora20221031135617062000000001",
+            "db_param_group": "stg1-transaction-screening-aurora20221031135617065200000002"
+        }
+    },
+    "multi_factor_authentication": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-multi-factor-authentication-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-multi-factor-authentication-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-multi-factor-authentication-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-multi-factor-authentication-aurora-db-parameter-group"
+        }
+    },
+    "fx_date_changes": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-fx-date-changes-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-fx-date-changes-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-fx-date-changes-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-fx-date-changes-aurora-db-parameter-group"
+        }
+    },
+    "beneficiary_manager_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.2xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-beneficiary-manager-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-beneficiary-manager-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.r5.2xlarge",
+            "cluster_param_group": "stg1-beneficiary-manager-demo-aurora20220921082342048500000002",
+            "db_param_group": "stg1-beneficiary-manager-demo-aurora20220921082342036300000001"
+        }
+    },
+    "payment_submission_manager": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-payment-submission-manager-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-payment-submission-manager-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-payment-submission-manager-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-payment-submission-manager-aurora-db-parameter-group"
+        }
+    },
+    "payments_dc_bank": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-payments-dc-bank-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-payments-dc-bank-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-payments-dc-bank-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-payments-dc-bank-aurora-db-parameter-group"
+        }
+    },
+    "account_settings_trust": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-account-settings-trust-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-account-settings-trust-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-account-settings-trust-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-account-settings-trust-aurora-db-parameter-group"
+        }
+    },
+    "payment_provider_bmo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-payment-provider-bmo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-payment-provider-bmo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-payment-provider-bmo-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-payment-provider-bmo-aurora-db-parameter-group"
+        }
+    },
+    "jpm_payment_tracker": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-jpm-payment-tracker-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-jpm-payment-tracker-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-jpm-payment-tracker-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-jpm-payment-tracker-aurora-db-parameter-group"
+        }
+    },
+    "white_label": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-white-label-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-white-label-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-white-label-aurora20220928173103088100000001",
+            "db_param_group": "stg1-white-label-aurora20220928173103090000000002"
+        }
+    },
+    "market_rates": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-market-rates-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-market-rates-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-market-rates-aurora20221101155121003000000002",
+            "db_param_group": "stg1-market-rates-aurora20221101155120997900000001"
+        }
+    },
+    "collections_provider_jpm": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-collections-provider-jpm-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-collections-provider-jpm-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-collections-provider-jpm-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-collections-provider-jpm-aurora-db-parameter-group"
+        }
+    },
+    "sanitised_snapshot": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.8xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-sanitised-snapshot-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-sanitised-snapshot-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": false,
+            "instance_type": "db.t3.medium",
+            "cluster_param_group": "stg1-sanitised-snapshot-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-sanitised-snapshot-aurora-db-parameter-group"
+        }
+    },
+    "payment_provider_starling": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-payment-provider-starling-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-payment-provider-starling-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-payment-provider-starling-aurora20220928160822174900000002",
+            "db_param_group": "stg1-payment-provider-starling-aurora20220928160822171300000001"
+        }
+    },
+    "trading_provider_ccycloud_hub": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-trading-provider-ccycloud-hub-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-trading-provider-ccycloud-hub-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-trading-provider-ccycloud-hub-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-trading-provider-ccycloud-hub-aurora-db-parameter-group"
+        }
+    },
+    "trading_provider_currencycloud_hub": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-trading-provider-currencycloud-hub-aurora-cluster",
+        "actual": {
+            "aurora_instances": 0,
+            "cluster_members": [],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-trading-provider-currencycloud-hub-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-trading-provider-ccycloud-hub-aurora-db-parameter-group"
+        }
+    },
+    "apiserver_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-apiserver-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-apiserver-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-apiserver-demo-aurora20220921082005326300000002",
+            "db_param_group": "stg1-apiserver-demo-aurora20220921082005315700000001"
+        }
+    },
+    "fix_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.xlarge",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-fix-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-fix-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.r5.xlarge",
+            "cluster_param_group": "stg1-fix-demo-aurora20220921084120258500000002",
+            "db_param_group": "stg1-fix-demo-aurora20220921084120246600000001"
+        }
+    },
+    "sweeps_adapter_fx": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-sweeps-adapter-fx-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-sweeps-adapter-fx-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-sweeps-adapter-fx-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-sweeps-adapter-fx-aurora-db-parameter-group"
+        }
+    },
+    "static_data_demo": {
+        "expected": {
+            "aurora_instances": 2,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-static-data-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 2,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-static-data-demo-aurora-node-0",
+                    "is_writer": true
+                },
+                {
+                    "instance_identifier": "stg1-static-data-demo-aurora-node-1",
+                    "is_writer": false
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-static-data-demo-aurora20220928163111095000000001",
+            "db_param_group": "stg1-static-data-demo-aurora20220928163111096700000002"
+        }
+    },
+    "new_sender_automation": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-new-sender-automation-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-new-sender-automation-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-new-sender-automation-aurora20220921090210734900000002",
+            "db_param_group": "stg1-new-sender-automation-aurora20220921090210732400000001"
+        }
+    },
+    "margin_management": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-margin-management-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-margin-management-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-margin-management-aurora20220921084845678000000002",
+            "db_param_group": "stg1-margin-management-aurora20220921084845675800000001"
+        }
+    },
+    "spreads_demo": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-spreads-demo-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-spreads-demo-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-spreads-demo-aurora20220928162406897000000002",
+            "db_param_group": "stg1-spreads-demo-aurora20220928162406893300000001"
+        }
+    },
+    "fix_adapter_integral": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t4g.medium",
+            "performance_insights_enabled": true
+        },
+        "cluster_identifier": "stg1-fix-adapter-integral-aurora-cluster",
+        "actual": {
+            "aurora_instances": 1,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-fix-adapter-integral-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": true,
+            "instance_type": "db.t4g.medium",
+            "cluster_param_group": "stg1-fix-adapter-integral-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-fix-adapter-integral-aurora-db-parameter-group"
+        }
+    },
+    "app_aurora_db": {
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.r5.12xlarge",
+            "performance_insights_enabled": false
+        },
+        "cluster_identifier": "stg1-app-aurora-db-aurora-cluster",
+        "actual": {
+            "aurora_instances": 2,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-app-aurora-db-aurora-node-0",
+                    "is_writer": false
+                },
+                {
+                    "instance_identifier": "stg1-app-aurora-db-aurora-node-1",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": false,
+            "instance_type": "db.r5.12xlarge",
+            "cluster_param_group": "stg1-app-aurora-cluster-parameter-group",
+            "db_param_group": "stg1-app-aurora-parameter-group"
+        }
+    },
+    "web_aurora_db": {
+        "expected": {
+            "aurora_instances": 2,
+            "instance_type": "db.t3.medium",
+            "performance_insights_enabled": false
+        },
+        "cluster_identifier": "stg1-web-aurora-db-aurora-cluster",
+        "actual": {
+            "aurora_instances": 2,
+            "cluster_members": [
+                {
+                    "instance_identifier": "stg1-web-aurora-db-aurora-node-1",
+                    "is_writer": false
+                },
+                {
+                    "instance_identifier": "stg1-web-aurora-db-aurora-node-0",
+                    "is_writer": true
+                }
+            ],
+            "performance_insights_enabled": false,
+            "instance_type": "db.t3.medium",
+            "cluster_param_group": "stg1-web-aurora-db-aurora20221102134453834200000002",
+            "db_param_group": "stg1-web-aurora-db-aurora20221102134453833800000001"
+        }
+    }
+}

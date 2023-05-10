@@ -1,0 +1,48 @@
+cluster_details = {
+    "transaction_monitoring": {
+        "actual": {
+            "aurora_instances": 2,
+            "instance_type": "db.r4.large",
+            "performance_insights_enabled": False,
+            "cluster_members": [
+                {
+                    "instance_identifier": "sand1-transaction-monitoring-aurora-node-1",
+                    "is_writer": False
+                },
+                {
+                    "instance_identifier": "sand1-transaction-monitoring-aurora-node-0",
+                    "is_writer": True
+                }
+            ],
+            "cluster_param_group": "sand1-transaction-monitoring-aurora20220928171037695400000002",
+            "db_param_group": "sand1-transaction-monitoring-aurora20220928171037694000000001"
+        },
+        "expected": {
+            "aurora_instances": 2,
+            "instance_type": "db.r4.large",
+            "performance_insights_enabled": False
+        },
+        "cluster_identifier": "sand1-transaction-monitoring-aurora-cluster"
+    },
+    "web-aurora-db": {
+        "actual": {
+            "aurora_instances": 1,
+            "instance_type": "db.t3.medium",
+            "performance_insights_enabled": False,
+            "cluster_members": [
+                {
+                    "instance_identifier": "sand1-web-aurora-db-aurora-node-0",
+                    "is_writer": True
+                }
+            ],
+            "cluster_param_group": "sand1-web-aurora-db-aurora20221102134453834200000002",
+            "db_param_group": "sand1-web-aurora-db-aurora20221102134453833800000001"
+        },
+        "expected": {
+            "aurora_instances": 1,
+            "instance_type": "db.t3.medium",
+            "performance_insights_enabled": False
+        },
+        "cluster_identifier": "sand1-web-aurora-db-aurora-cluster"
+    }
+}
